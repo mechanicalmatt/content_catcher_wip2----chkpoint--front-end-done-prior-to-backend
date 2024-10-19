@@ -1,0 +1,49 @@
+/* src/App.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* */
+
+@font-face {
+  font-family: 'Bogle Black';
+  src: url('./fonts/BOGLEBLACK.OTF') format('opentype');
+}
+
+@font-face {
+  font-family: 'Bogle Black Italic';
+  src: url('./fonts/BOGLEBLACKITALIC.OTF') format('opentype');
+}
+
+/* */
+
+@font-face {
+  font-family: 'Bogle Bold';
+  src: url('./fonts/BOGLEBOLD.OTF') format('opentype');
+}
+
+@font-face {
+  font-family: 'Bogle Bold Italic';
+  src: url('./fonts/BOGLEBOLDITALIC.OTF') format('opentype');
+}
+
+/* */
+
+@font-face {
+  font-family: 'Bogle Regular';
+  src: url('./fonts/BOGLEREGULAR.OTF') format('opentype');
+}
+
+@font-face {
+  font-family: 'Bogle Regular Italic';
+  src: url('./fonts/BOGLEREGULARITALIC.OTF') format('opentype');
+}
+
+/* */
+
+@layer base {
+  body {
+    @apply font-['Bogle_Regular'] bg-gray-100 text-gray-800;
+  }
+}
